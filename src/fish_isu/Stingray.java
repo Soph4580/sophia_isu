@@ -23,7 +23,7 @@ public class Stingray extends AFish {
     public String toString() {
         return family+" "+type+" "+getFamily()+""+getName()+" "+getOrigin()+" "+getWeight()+" "+getPrice()+" "+hasAirBladder;
     }
-    //unique
+    //unique characteristic
     public boolean hasAirBladder() {
         return hasAirBladder;
     }

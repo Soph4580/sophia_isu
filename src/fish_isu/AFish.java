@@ -29,6 +29,7 @@ public abstract class AFish implements Comparable {
     //implement
     @Override
     public abstract String toString();
+    
     //static
     public static synchronized int getCount() {
         return count;

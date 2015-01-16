@@ -2,6 +2,7 @@
 package fish_isu;
 
 public class Shark extends AFish {
+    
     //additional properties
     String family = "Sphyrnidae";
     String type = "Shark";
@@ -25,7 +26,7 @@ public class Shark extends AFish {
     public String toString() {
         return family+" "+type+" "+getFamily()+""+getName()+" "+getOrigin()+" "+getWeight()+" "+getPrice()+" "+hasAirBladder;
     }
-    //unique
+    //unique characteristic
     public boolean hasAirBladder() {
         return hasAirBladder;
     }
